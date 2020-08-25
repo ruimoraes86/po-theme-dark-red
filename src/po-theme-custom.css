@@ -107,20 +107,20 @@
   --color-primary-alpha-50: rgba(190, 12, 12, 0.5);
 
   /* Botão primário, Links, Cor da borda do input selecionado, Cor da borda do botão secundário */
-  --color-primary: #be0c0c;
+  --color-primary: #d15757;
 
   /* Hover do Botão primário, Links, Cor da borda do botão secundário */
-  --color-primary-dark-20: #980909;
+  --color-primary-dark-20: #993131;
 
   /* Pressed do Botão primário, Links, Cor da borda do botão secundário */
-  --color-primary-dark-40: #720707;
+  --color-primary-dark-40: #923737;
 
   /* Secondary */
-  --color-secondary: #9c0d0d;
+  --color-secondary: #9b3636;
 
-  --color-secondary-dark-20: #7c0a0a;
+  --color-secondary-dark-20: #803434;
 
-  --color-secondary-dark-40: #5d0707;
+  --color-secondary-dark-40: #5f2929;
 
   /* Overlay de Modal e Menu (70% de opacidade) */
   --color-secondary-dark-60-alpha-70: rgba(62, 5, 5, 0.7);
@@ -149,6 +149,8 @@
   /* Background da página, Background da linha selecionada */
   --color-neutral-light-98: #fbfbfb;
 
+  --color-neutral-dark-98: #353535;
+
   /* Borda inferior de item de tabela, Base do Slider, Background do Input inativo */
   --color-neutral-light-90: #eeecec;
 
@@ -165,7 +167,7 @@
   --color-neutral-alpha-45: rgba(96, 74, 74, 0.45);
 
   /* Background do Feedback, Pill de informação */
-  --color-neutral: #604a4a;
+  --color-neutral: #a58585;
 
   /* Usar em menu: Área do logo, Background do menu */
   --color-neutral-dark-40: #392c2c;
@@ -503,7 +505,7 @@
 
   --color-combo-border-button-error: var(--color-danger);
 
-  --color-combo-background-color-group-title: var(--color-neutral-light-98);
+  --color-combo-background-color-group-title: var(--color-neutral-dark-98);
   --color-combo-color-group-title: var(--color-neutral-dark-60);
   --color-combo-color-primary: var(--color-primary);
   --color-combo-color-selected: var(--color-white);
@@ -665,7 +667,7 @@
   --color-menu-background-color-item-selected: var(--color-black-alpha-30);
   --color-menu-background-color-menu: var(--color-neutral-dark-40);
   --color-menu-background-color-menu-responsive-overlay: var(--color-secondary-dark-60-alpha-70);
-  --color-menu-background-color-responsive: var(--color-neutral-light-98);
+  --color-menu-background-color-responsive: var(--color-neutral-dark-98);
   --color-menu-background-color-sub-items: var(--color-black-alpha-15);
   --color-menu-background-color-sub-item-selected: var(--color-black-alpha-30);
 
@@ -789,7 +791,7 @@
   PAGE
 \*------------------------------------*/
 
-  --color-page-background-color-page: var(--color-neutral-light-98);
+  --color-page-background-color-page: var(--color-neutral-dark-98);
 
 /*------------------------------------*\
   PAGE BACKGROUND
@@ -804,15 +806,15 @@
   --color-page-blocked-user-link-color: var(--color-primary);
   --color-page-blocked-user-link-color-hover: var(--color-primary-dark-20);
   --color-page-blocked-user-text-color: var(--color-neutral);
-  --color-page--blocked-user-background-color: var(--color-neutral-light-98);
+  --color-page--blocked-user-background-color: var(--color-neutral-dark-98);
 
 /*------------------------------------*\
   PAGE CHANGE PASSWORD
 \*------------------------------------*/
 
-  --color-page-change-password-background-color-buttons: var(--color-neutral-light-98);
+  --color-page-change-password-background-color-buttons: var(--color-neutral-dark-98);
   --color-page-change-password-background-color-container: var(--color-white);
-  --color-page-change-password-background-color-secondary-logo: var(--color-neutral-light-98);
+  --color-page-change-password-background-color-secondary-logo: var(--color-neutral-dark-98);
   --color-page-change-password-color-link: var(--color-primary);
   --color-page-change-password-color-text: var(--color-neutral);
   --color-page-change-password-color-required: var(--color-neutral);
@@ -844,7 +846,7 @@
 
   --color-page-login-header-product-name-color: var(--color-neutral);
   --color-page-login-header-welcome-color: var(--color-tertiary);
-  --color-page-login-background-color: var(--color-neutral-light-98);
+  --color-page-login-background-color: var(--color-neutral-dark-98);
   --color-page-login-background-highlight-image: var(--color-neutral-light-90);
   --color-page-login-highlight-text-color: var(--color-white);
   --color-page-login-link-color: var(--color-primary);
@@ -1029,7 +1031,7 @@
 --color-table-background-color-header: var(--color-white);
 --color-table-background-color-overlay: var(--color-secondary-dark-60-alpha-70);
 --color-table-background-color-overlay-content: var(--color-white);
---color-table-background-color-row-strip: var(--color-neutral-light-98);
+--color-table-background-color-row-strip: var(--color-neutral-dark-98);
 --color-table-background-color-scrollbar: var(--color-primary);
 --color-table-background-color-selected: var(--color-primary);
 --color-table-background-color-table: var(--color-white);
@@ -1129,7 +1131,7 @@ TABLE COLUMN MANAGER
 \*------------------------------------*/
 
   --color-toolbar-background-color-badge: var(--color-danger);
-  --color-toolbar-background-color-toolbar: var(--color-neutral-light-98);
+  --color-toolbar-background-color-toolbar: var(--color-neutral-dark-98);
 
   --color-toolbar-border-color-separator: var(--color-neutral-light-90);
 

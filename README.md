@@ -1,4 +1,4 @@
-# PO Theme - Light Red Theme
+# PO Theme - Dark Red Theme
 
 Tema para uso em aplicações desenvolvidas com [PO UI](http://po-ui.io).
 
@@ -7,13 +7,13 @@ Tema para uso em aplicações desenvolvidas com [PO UI](http://po-ui.io).
 Para utilizá-lo, instale o pacote `/po-theme` conforme abaixo:
 
 ```
-npm i --save po-theme-light-red
+npm i --save po-theme-dark-red
 ```
 
 Em seguida, atualize o arquivo `angular.json` para utilizar o tema.
 
 ```json
 "styles": [
-  "node_modules/po-theme-light-red/css/po-theme-default.min.css"
+  "node_modules/po-theme-dark-red/css/po-theme-default.min.css"
 ]
 ```
