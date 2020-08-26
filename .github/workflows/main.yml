@@ -16,7 +16,7 @@ jobs:
     - run: npm install -g @po-ui/theme-cli
     - run: npm install
     - run: po-theme build
-    - run: pwd
+    - run: ls
     - run: cd dist
     - run: npm publish
       env:
